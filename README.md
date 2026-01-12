@@ -32,7 +32,7 @@ It promotes **accessibility**, **efficiency**, and **civic engagement** in journ
 ### 1. Clone the repository
    ```bash
    git clone https://github.com/Srilakshmi002/newsdigest-ai.git
-   cd newsdigest-ai
+   cd newsdigest-ai```
 
 2. Install the required Python packages:
 ```bash
