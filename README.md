@@ -69,3 +69,5 @@ streamlit run app.py
 
 ## Author
 Sri Lakshmi  
+
+<img width="844" height="585" alt="Screenshot 2026-01-11 at 8 19 18 PM" src="https://github.com/user-attachments/assets/c00c4211-ef0c-4dc9-9810-cc855b215a79" />
