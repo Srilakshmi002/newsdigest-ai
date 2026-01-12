@@ -13,12 +13,6 @@ All powered by **Groq AI** (fast, free-tier models) and newspaper3k for article 
 I created this tool to help readers quickly understand complex public-interest stories - like school vouchers, new state laws, policy changes, or elections — without having to read long, dense articles.  
 It promotes **accessibility**, **efficiency**, and **civic engagement** in journalism.
 
-## Tech Stack
-- Python 3.12
-- Streamlit (UI framework)
-- Groq API (fast LLM inference with Llama 3.1 8B model)
-- newspaper3k (article parsing)
-
 ### Features
 
 - Two input modes: article URL or pasted text  
@@ -30,36 +24,43 @@ It promotes **accessibility**, **efficiency**, and **civic engagement** in journ
 ### How to Run Locally
 
 ### 1. Clone the repository
-   ```bash
+```bash
    git clone https://github.com/Srilakshmi002/newsdigest-ai.git
-   cd newsdigest-ai```
+   cd newsdigest-ai
+```
 
-2. Install the required Python packages:
+### 2. Install the required Python packages:
 ```bash
 pip install -r requirements.txt
+```
 
-**If you don't have requirements.txt, create it with these lines:**
-textstreamlit
+#### If you don't have requirements.txt, create it with these lines:
+streamlit
 newspaper3k
 groq
 
-**Set up your Groq API key (local development)**
-This is very important — add this section:
 
-```markdown
-**Create a local secrets file for your Groq API key:**
+### 3. Set up your Groq API key (local development)
+This is very important — add this section:
+#### Create a local secrets file for your Groq API key:
 ```bash
 mkdir -p .streamlit
 echo 'GROQ_API_KEY = "your_groq_api_key_here"' > .streamlit/secrets.toml
+```
+#### Get your free API key at: https://console.groq.com/keys
+###### Never commit this file to GitHub! (add .streamlit / to .gitignore)
 
-Get your free API key at: https://console.groq.com/keys
-Never commit this file to GitHub! (add .streamlit / to .gitignore)
-
-**Run the app**
-```markdown
-4. Launch the app:
+### 4. Run the app
+Launch the app:
 ```bash
 streamlit run app.py
+```
+
+## Tech Stack
+- Python 3.12
+- Streamlit (UI framework)
+- Groq API (fast LLM inference with Llama 3.1 8B model)
+- newspaper3k (article parsing)
 
 ## Important Notes
 - AI outputs are generated for quick understanding — **always verify against the original article**
