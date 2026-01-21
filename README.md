@@ -1,5 +1,9 @@
 # NewsDigest AI
 
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Groq](https://img.shields.io/badge/Groq-FF6B6B?style=for-the-badge&logo=groq&logoColor=white)](https://groq.com/)
+
 **A simple Streamlit web application** that makes news articles more accessible by automatically generating:
 
 - Neutral 100–150 word summary  
